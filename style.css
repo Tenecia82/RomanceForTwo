@@ -51,7 +51,7 @@ body{
     display: inline-block;
   }
 
-  a:visited{
+  a, a:visited{
       color:white;
   }
 
