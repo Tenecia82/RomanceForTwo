@@ -42,7 +42,7 @@ const loadMovie = function() {
       },
 
       statusCode: {
-        409: function() {
+        500: function() {
           alert('Internal Server Error');
         }
       }
@@ -55,7 +55,7 @@ $('#search2').on('click', function(event){
   $('.info2').empty();
   let input = $('.input2').val().replace(' ', '+');
   
-  let yummlyUrl=`http://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=+${appKey}&q=${input}&requirePictures=true&allowedCourse[]=course^course-Snacks`;
+  let yummlyUrl=`https://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=+${appKey}&q=${input}&requirePictures=true&allowedCourse[]=course^course-Snacks`;
 
   $.getJSON(yummlyUrl, {
     //OPTIONS....
@@ -65,9 +65,7 @@ $('#search2').on('click', function(event){
       let divContents = '.info2';
       yummlyHtml(index, results, divContents);
 
-
-      //success
-    })
+    });
   }).fail(function(data){
 
     if (data.status == 400){
@@ -134,7 +132,7 @@ const loadQuote = function() {
       },
       
       statusCode: {
-        409: function() {
+        500: function() {
           alert('Internal Server Error');
         }
       }

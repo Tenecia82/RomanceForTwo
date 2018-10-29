@@ -8,7 +8,7 @@ $('#search1').on('click', function(event){
   event.preventDefault();
   $('.info1').empty();
   let input = $('#input1').val().replace(' ', '+');
-  let yummlyUrl=`http://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=${appKey}&q=${input}&requirePictures=true&excludedCourse[]=course^course-Dessert`;
+  let yummlyUrl=`https://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=${appKey}&q=${input}&requirePictures=true&excludedCourse[]=course^course-Dessert`;
 
   $.getJSON(yummlyUrl, {
     //OPTIONS....
@@ -41,7 +41,7 @@ $('#search2').on('click', function(event){
   $('.info2').empty();
 
   let input = $('#input2').val().replace(' ', '+');
-  let yummlyUrl=`http://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=${appKey}&q=${input}&requirePictures=true&allowedCourse[]=course^course-Dessert`;
+  let yummlyUrl=`https://api.yummly.com/v1/api/recipes?_app_id=${appID}&_app_key=${appKey}&q=${input}&requirePictures=true&allowedCourse[]=course^course-Dessert`;
 
   $.getJSON(yummlyUrl, {
     //OPTIONS....

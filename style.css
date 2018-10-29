@@ -51,6 +51,10 @@ body{
     display: inline-block;
   }
 
+  a:visited{
+      color:white;
+  }
+
 /* Create three equal columns that floats next to each other */
 .column{ 
     float: left;
