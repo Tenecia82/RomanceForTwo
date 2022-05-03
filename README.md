@@ -1,6 +1,6 @@
 <h1>Romance For Two:</h1>
 
-<p>"Romance For Two", is an application used to help plan a date, to be enjoyed in the comfort of your own home with your significant other.  You can plan a romantic meal, by searching for entree', dessert, and alcoholic or non-alcoholic drink recipes. You can also plan a romantic and entertaining date, by searching for streaming movies or shows, a snack, and access a random movie quote game to test your movie knowledge.  If you want a full day of food and fun, you can do both.</p>
+<p>"Romance For Two", is an application used to help plan a date, to be enjoyed in the comfort of your own home with your significant other. You can plan a romantic meal by searching for;  an entree', dessert, and an alcoholic or non-alcoholic drink recipe. You can also plan a romantic and entertaining date, by searching for streaming movies or shows, a snack, and access a random movie quote game to test your movie knowledge. If you want a full day of food and fun, you can do both.</p>
 
 <h2>Screenshots:<h2>
 
